@@ -1,4 +1,4 @@
-package org.example;
+package baekjoon.basic1;
 
 import java.io.*;
 import java.util.LinkedList;

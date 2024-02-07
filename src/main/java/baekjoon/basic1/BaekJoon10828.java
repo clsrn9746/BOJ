@@ -1,17 +1,20 @@
-package org.example;
+package baekjoon.basic1;
 
 import java.io.*;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Stack_1 {
-    private static Stack_1 instance;
+/**
+ * 백준 10828번 스택
+ */
+public class BaekJoon10828 {
+    private static BaekJoon10828 instance;
 
-    private Stack_1() {}
+    private BaekJoon10828() {}
 
-    public static synchronized Stack_1 getInstance(){
+    public static synchronized BaekJoon10828 getInstance(){
         if(instance == null){
-            instance = new Stack_1();
+            instance = new BaekJoon10828();
         }
         return instance;
     }

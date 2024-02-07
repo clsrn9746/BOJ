@@ -1,10 +1,13 @@
-package org.example;
+package baekjoon.basic1;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/**
+ * 백준 1874번 스택 수열
+ */
 public class BaekJoon1874 {
 
     public void baekJoon1874() throws IOException {

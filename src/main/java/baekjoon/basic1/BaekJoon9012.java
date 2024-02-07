@@ -1,9 +1,12 @@
-package org.example;
+package baekjoon.basic1;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Bracket {
+/**
+ * 백준 9012번 괄호
+ */
+public class BaekJoon9012 {
 
     public void baekJoonBracket() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
